@@ -6,7 +6,7 @@
       <ObjectData Name="Layer" Tag="64" ctype="GameLayerObjectData">
         <Size X="960.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="A05_1" ActionTag="-482733550" Tag="66" IconVisible="False" LeftMargin="216.5000" RightMargin="672.5000" TopMargin="193.5000" BottomMargin="377.5000" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Pedra" ActionTag="-482733550" Tag="66" IconVisible="False" LeftMargin="216.5000" RightMargin="672.5000" TopMargin="193.5000" BottomMargin="377.5000" ctype="SpriteObjectData">
             <Size X="71.0000" Y="69.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="252.0000" Y="412.0000" />

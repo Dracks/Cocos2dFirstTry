@@ -34,11 +34,16 @@ var HelloWorldScene = cc.Scene.extend({
 
 var MainMenuLayer = cc.Layer.extend({
 	sripte: null,
-	ctor: function (){
+	ctor: function () {
 		this._super();
 
-		var mainscene = ccs.load(res.MainMenuScene_json);
+		var mainscene = ccs.load(res.MainBackground_json);
 		this.addChild(mainscene.node);
+
+		var child = mainscene.node.getChildByName("Pedra");
+		child.zIndex = 10;
+
+		child.runAction(new cc.MoveBy(3, cc.p(500, 10)));
 
 		return true
 	}
