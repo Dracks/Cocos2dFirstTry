@@ -1,0 +1,169 @@
+{
+  "ID": "b3143ff1-9b48-473f-aff4-6f6a6f18c5be",
+  "Version": "2.3.3.0",
+  "Name": "MainBackground",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 64,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "A05.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 252.0,
+              "Y": 412.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2625,
+              "Y": 0.6438
+            },
+            "PreSize": {
+              "X": 0.074,
+              "Y": 0.1078
+            },
+            "LeftMargin": 216.5,
+            "RightMargin": 672.5,
+            "TopMargin": 193.5,
+            "BottomMargin": 377.5,
+            "Tag": 66,
+            "ActionTag": -482733550,
+            "Size": {
+              "X": 71.0,
+              "Y": 69.0
+            },
+            "Name": "A05_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "A06.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 396.0,
+              "Y": 216.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4125,
+              "Y": 0.3375
+            },
+            "PreSize": {
+              "X": 0.0729,
+              "Y": 0.0984
+            },
+            "LeftMargin": 361.0,
+            "RightMargin": 529.0,
+            "TopMargin": 392.5,
+            "BottomMargin": 184.5,
+            "Tag": 67,
+            "ActionTag": -2056787764,
+            "Size": {
+              "X": 70.0,
+              "Y": 63.0
+            },
+            "Name": "A06_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "A07.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 695.9977,
+              "Y": 409.9992
+            },
+            "Scale": {
+              "ScaleX": 0.4476,
+              "ScaleY": 0.5145
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.725,
+              "Y": 0.6406
+            },
+            "PreSize": {
+              "X": 0.5958,
+              "Y": 0.8109
+            },
+            "LeftMargin": 409.9977,
+            "RightMargin": -21.9977,
+            "TopMargin": -29.4992,
+            "BottomMargin": 150.4992,
+            "Tag": 68,
+            "ActionTag": -1204002615,
+            "Size": {
+              "X": 572.0,
+              "Y": 519.0
+            },
+            "Name": "A07_3",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "A05.png",
+        "A06.png",
+        "A07.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

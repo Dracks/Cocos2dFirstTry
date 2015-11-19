@@ -1,7 +1,7 @@
 {
-  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "ID": "804c7366-b60c-423c-8168-713a309f398a",
   "Version": "2.3.3.0",
-  "Name": "MainScene",
+  "Name": "MainMenuScene",
   "Content": {
     "Content": {
       "Animation": {
@@ -12,47 +12,44 @@
       },
       "AnimationList": [],
       "ObjectData": {
+        "Tag": 63,
         "Children": [
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "HelloWorld.png",
+              "Path": "MainBackground.json",
               "Plist": ""
             },
-            "BlendFunc": {
-              "Src": 1,
-              "Dst": 771
-            },
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
             "Position": {
-              "X": 480.0,
-              "Y": 320.0
+              "X": 0.0,
+              "Y": 0.0
             },
             "Scale": {
               "ScaleX": 1.0,
               "ScaleY": 1.0
             },
             "CColor": {},
-            "IconVisible": false,
+            "IconVisible": true,
             "PrePosition": {
-              "X": 0.5,
-              "Y": 0.5
-            },
-            "PreSize": {
               "X": 0.0,
               "Y": 0.0
             },
-            "Tag": 5,
-            "ActionTag": 953446860,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 69,
+            "ActionTag": 1785165093,
             "Size": {
               "X": 960.0,
               "Y": 640.0
             },
-            "Name": "Default",
-            "ctype": "SpriteObjectData"
+            "Name": "FileNode_1",
+            "ctype": "ProjectNodeObjectData"
           }
         ],
         "Size": {
@@ -63,7 +60,7 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
-        "HelloWorld.png"
+        "MainBackground.json"
       ],
       "ctype": "GameFileData"
     }
