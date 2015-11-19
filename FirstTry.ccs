@@ -1,10 +1,15 @@
 <Solution>
-  <PropertyGroup Name="FirstTry" Version="2.1.0.0" Type="CocosStudio" />
+  <PropertyGroup Name="FirstTry" Version="2.3.3.0" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Project Name="MainScene.csd" />
+        <Project Name="MainScene.csd" Type="Scene" />
         <Image Name="HelloWorld.png" />
+        <Project Name="MainMenuScene.csd" Type="Scene" />
+        <Project Name="MainBackground.csd" Type="Layer" />
+        <Image Name="A05.png" />
+        <Image Name="A06.png" />
+        <Image Name="A07.png" />
       </RootFolder>
     </Group>
   </SolutionFolder>
